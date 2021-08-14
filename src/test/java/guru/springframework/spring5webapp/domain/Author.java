@@ -91,7 +91,7 @@ public void setBooks(Set<Book> books) {
 @Override
 public String toString() {
 	return "Author [" + (id != null ? "id=" + id + ", " : "")
-			+ (firstName != null ? "firstName=" + firstName + ", " : "")
+			+ (firstName != null ? "firstName1=" + firstName + ", " : "")
 			+ (lastName != null ? "lastName=" + lastName + ", " : "") + (books != null ? "books=" + books : "") + "]";
 }
  
